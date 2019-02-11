@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>登录</title>
+		<style>
+			body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,input,img,table,fieldset,legend{margin:0; padding:0;}
+			ul,li,ol{list-style:none;}
+			img,fieldset{border:0; }
+			img{display:block;}
+			a{text-decoration:none; color:#333;}
+			h1,h2,h3,h4,h5,h6{font-weight:100;}
+			body{ font-family:"微软雅黑";font-size: 12px;}
+			input,a{outline:none;}
+				html{
+					font-size:31.25vw;
+				}	
+			header{
+				width:100%;
+				height:1.5rem;
+				/* background: #191A1B; */
+				overflow: hidden;
+			}
+			header img{
+				width:0.5rem;
+				height:0.5rem;
+				margin-top: 0.6rem;
+				margin-left: 44%;
+			}
+			.txt{
+				height:0.5rem;
+				width:3rem;
+				/* background: red; */
+				margin: 0 0 0 0.1rem;
+				border-bottom: 1px solid #ccc;
+				position: relative;
+			}
+			#txt,#pwd{
+				width:3rem;
+				height:0.2rem;
+				margin-top: 0.15rem;
+				border: none;
+				font-size: 0.15rem;
+				text-indent: 0.01rem;
+			}
+			span{
+				font-size: 0.12rem;
+				position: absolute;
+				top:0.18rem;
+				right:0.0rem;
+				color: #ccc;
+			}
+			#btn{
+				width:3rem;
+				height:0.35rem;
+				border:none;
+				background: #ff5f16;
+				margin: 0.4rem 0.1rem 0;
+				border-radius: 0.02rem;
+				font-size: 0.12rem;
+				color: #fff;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<img src="../img/logo1.png" alt="">
+		</header>
+		<div class="txt">
+			
+			<input type="text" id="txt" placeholder="手机号">
+			<span>获取验证码</span>
+		</div>
+		<div class="txt">
+			
+			<input type="text" id="pwd" placeholder="验证码">
+		</div>
+		<input type="button" id="btn" value="登录">
+	</body>
+</html>

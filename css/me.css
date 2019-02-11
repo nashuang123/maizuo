@@ -1,0 +1,101 @@
+body{
+	background: #f4f4f4;
+}
+.head{
+	width:100%;
+	height:1.5rem;
+	background: url(../img/bg.png) no-repeat center/cover;
+	overflow: hidden;
+}
+.admin{
+	width:0.55rem;
+	height:0.55rem;
+	border-radius: 0.55rem;
+	overflow: hidden;
+	border: 0.02rem solid #fff;
+	margin-top: 0.6rem;
+	margin-left: 0.2rem;
+	float: left;
+}
+.admin img{
+	width:0.55rem;
+	height:0.55rem;
+}
+.denglu{
+	float: left;
+	margin-top: 0.8rem;
+	margin-left: 0.2rem;
+}
+.denglu a{
+	font-size: 0.15rem;
+	color: #fff;
+}
+.content{
+	width:100%;
+	height:0.6rem;
+	background: #fff;
+}
+.content li{
+	width:50%;
+	height:100%;
+	float: left;
+	text-align: center;
+	line-height: 0.8rem;
+}
+.content img{
+	display: block;
+	width:0.25rem;
+	height:0.25rem;
+	vertical-align: center;
+	margin-left: 0.5rem;
+	margin-top: 0.1rem;
+	margin-left: 0.65rem;
+	
+}
+.content span{
+	display: block;
+	font-size: 0.12rem;
+	height:0.2rem;
+	line-height: 0.2rem;
+	color: #666;
+	
+}
+.container{
+	width:100%;
+	margin-top: 0.06rem;
+	background: #fff;
+	overflow: hidden;
+}
+.con1{
+	margin-left: 0.06rem;
+	height:0.5rem;
+	border-bottom:1px solid #ccc;
+}
+.con1 img{
+	width:0.2rem;
+	height:0.2rem;
+	float: left;
+	margin-top: 0.13rem;
+}
+.con1 span{
+	font-size: 0.14rem;
+	float: left;
+	margin-top: 0.13rem;
+	margin-left: 0.15rem;
+}
+.con1 i{
+	float: right;
+	font-size: 0.15rem;
+	margin-right: 0.1rem;
+	font-style: normal;
+	color: #ccc;
+	margin-top: 0.1rem;
+}
+.con1 strong{
+	float: right;
+	font-size: 0.12rem;
+	margin-top: 0.13rem;
+	font-weight: 100;
+	margin-right: 0.1rem;
+	color: #666;
+}
